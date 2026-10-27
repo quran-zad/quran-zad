@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="quranGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#quranGrad)"/>
+  <!-- Islamic geometric frame circle -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="8 6" opacity="0.6"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.4"/>
+  <!-- Open Book / Holy Quran Icon -->
+  <g transform="translate(116, 126)" fill="none" stroke="url(#goldGrad)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left page -->
+    <path d="M140 240 C100 210, 50 205, 10 215 L10 40 C50 30, 100 35, 140 65 Z" fill="#064e3b" fill-opacity="0.6"/>
+    <!-- Right page -->
+    <path d="M140 240 C180 210, 230 205, 270 215 L270 40 C230 30, 180 35, 140 65 Z" fill="#064e3b" fill-opacity="0.6"/>
+    <!-- Spine -->
+    <line x1="140" y1="65" x2="140" y2="240" stroke="#f59e0b" stroke-width="12"/>
+    <!-- Text decorative lines -->
+    <line x1="40" y1="80" x2="110" y2="80" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+    <line x1="40" y1="115" x2="110" y2="115" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+    <line x1="40" y1="150" x2="90" y2="150" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+    <line x1="170" y1="80" x2="240" y2="80" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+    <line x1="170" y1="115" x2="240" y2="115" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+    <line x1="190" y1="150" x2="240" y2="150" stroke="url(#goldGrad)" stroke-width="6" opacity="0.7"/>
+  </g>
+  <!-- Crescent & Star -->
+  <path d="M256 70 A30 30 0 0 0 278 116 A36 36 0 1 1 256 70 Z" fill="url(#goldGrad)"/>
+  <polygon points="284,86 288,96 298,96 290,102 293,112 284,106 275,112 278,102 270,96 280,96" fill="url(#goldGrad)"/>
+</svg>

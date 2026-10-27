@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-quran: 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+    --font-reading: 'Amiri', serif;
+    --font-ui: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-ui);
+  }
+}
+
+.font-quran {
+  font-family: 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+  line-height: 2.2;
+  word-spacing: 2px;
+}
+
+.font-reading {
+  font-family: 'Amiri', 'Scheherazade New', serif;
+}
+
+.font-ui {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Islamic arabesque border pattern */
+.islamic-border-box {
+  background-image: radial-gradient(circle at 100% 100%, transparent 6px, #ffffff 6px),
+                    radial-gradient(circle at 0 100%, transparent 6px, #ffffff 6px),
+                    radial-gradient(circle at 100% 0, transparent 6px, #ffffff 6px),
+                    radial-gradient(circle at 0 0, transparent 6px, #ffffff 6px);
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1c7b7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0f5132;
+}
+
+/* Reading Theme Modes */
+.theme-mushaf {
+  background-color: #faf7ee;
+  color: #1f1d1a;
+}
+
+.theme-sepia {
+  background-color: #f4ecd8;
+  color: #2b2519;
+}
+
+.theme-night {
+  background-color: #0c1815;
+  color: #e5edea;
+}
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="quranGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="goldGrad192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#quranGrad192)"/>
+  <circle cx="96" cy="96" r="82" fill="none" stroke="url(#goldGrad192)" stroke-width="2" stroke-dasharray="4 3" opacity="0.6"/>
+  <!-- Open Book -->
+  <g transform="translate(42, 48)" fill="none" stroke="url(#goldGrad192)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M54 90 C38 80, 20 78, 4 82 L4 16 C20 12, 38 14, 54 26 Z" fill="#064e3b" fill-opacity="0.6"/>
+    <path d="M54 90 C70 80, 88 78, 104 82 L104 16 C88 12, 70 14, 54 26 Z" fill="#064e3b" fill-opacity="0.6"/>
+    <line x1="54" y1="26" x2="54" y2="90" stroke="#f59e0b" stroke-width="5"/>
+  </g>
+  <!-- Crescent -->
+  <path d="M96 28 A12 12 0 0 0 104 46 A14 14 0 1 1 96 28 Z" fill="url(#goldGrad192)"/>
+</svg>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نور القرآن - المنصة القرآنية الشاملة</title>
+    <meta name="description" content="منصة إسلامية شاملة: القرآن الكريم كاملاً، تلاوات صوتية مرتلة، ختمة القرآن، مواقيت الصلاة بالآذان، بوصلة اتجاه القبلة، إذاعات القرآن المباشرة، الأدعية والرقية الشرعية وصدقة جارية، وبث الحرمين الشريفين." />
+    <meta property="og:title" content="نور القرآن - المنصة القرآنية الشاملة" />
+    <meta property="og:description" content="منصة إسلامية شاملة: القرآن الكريم كاملاً، تلاوات صوتية مرتلة، ختمة القرآن، مواقيت الصلاة بالآذان، بوصلة اتجاه القبلة، إذاعات القرآن المباشرة، الأدعية والرقية الشرعية وصدقة جارية، وبث الحرمين الشريفين." />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#064e3b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="نور القرآن" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icon-192.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;500;600;700;800&family=Scheherazade+New:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-stone-50 text-stone-900 antialiased selection:bg-emerald-800 selection:text-amber-100 font-sans">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
