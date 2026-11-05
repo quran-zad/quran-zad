@@ -26,7 +26,7 @@ import { Heart, BookOpen, Sparkles, Bell, Download, Sun } from 'lucide-react';
 
 export default function App() {
   const [prefs, setPrefs] = useState<UserPrefs>(() => StorageService.getPrefs());
-  const [activeTab, setActiveTab] = useState<AppTab>('page');
+  const [activeTab, setActiveTab] = useState<AppTab>('GitHub');
   const [currentPage, setCurrentPage] = useState<number>(() => {
     const last = StorageService.getLastRead();
     return last.pageNumber || 1;
